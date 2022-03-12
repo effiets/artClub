@@ -1,0 +1,143 @@
+body{
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    display: block;
+}
+
+header{
+    border-bottom: 2px solid cadetblue;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+ 
+}
+
+.logo{
+    align-content: flex-start;
+    width: 15%;
+    height: 2em;
+    margin-left: 5%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+li{
+    padding-left: 2rem;
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: cadetblue;
+   
+}
+
+.main{
+    height: 25.5rem;
+    background-image: url(./images/header.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+}
+
+.main h1{
+    margin-top: 5rem;
+    width: 100%;
+    font-size: 3rem;
+    color: black;
+    text-shadow: 2px;
+    text-align: center;
+    height: 7rem;
+    background-color: rgba(255, 153, 153, 0.3);
+    
+}
+
+.meet{
+    padding: 0.75rem 1.24rem;
+}
+h2{
+    font-weight: bold;
+}
+
+.paintings{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lemonchiffon;
+    height: 800px;
+    justify-content: space-between;
+    align-content:space-around;
+    align-items: center;
+}
+.paintings img{
+    width: 30%;
+    height: 30%;
+    margin: 1.5%;
+
+}
+
+.quote{
+    background-color: rgba(255, 153, 153, 0.3);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+
+.quote p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.mediums{
+    display: block;
+}
+.mediums p{
+    color: rgb(119, 34, 62);
+    text-align: center;
+    text-shadow: 3px 3px 4px cadetblue;
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.medium {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    height: auto;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+
+.imgcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height:35%;
+    margin: 1.5%;
+}
+
+.imgcontainer p{
+    font-size: 2rem;
+    color: black;
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+}
+
+footer h3{
+    margin-top: 4rem;
+    font-size: 2rem;
+
+}
