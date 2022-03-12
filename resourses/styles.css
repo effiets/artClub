@@ -16,12 +16,7 @@ header{
  
 }
 
-.logo{
-    align-content: flex-start;
-    width: 15%;
-    height: 2em;
-    margin-left: 5%;
-}
+
 ul{
     display: flex;
     flex-direction: row;
@@ -139,5 +134,59 @@ footer{
 footer h3{
     margin-top: 4rem;
     font-size: 2rem;
+
+}
+
+
+
+@media only screen and (max-width: 700px){
+
+    header{
+        height: 100px;
+        justify-content: center;
+    
+    }
+
+    header img{
+        display: none;
+    }
+
+   ul { 
+        display: block;
+        
+    }
+
+    li{
+    line-height: 1.5rem;
+    align-self:  center;    
+    }
+
+    a{
+        font-size: 1.6rem;
+    }
+
+    .paintings, .mediums{
+        height: auto;
+    }
+
+    .paintings img, .imgcontainer {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .main{
+        height:16rem;
+    }
+    .main h1 {
+        height:5rem;
+        font-size: 2rem;       
+    }
+   .meet h2, .quote p,  footer h3{
+        font-size: 1rem;
+    }
+    .mediums p, .imgcontainer p{
+        font-size: 1.5rem;
+    }
 
 }
